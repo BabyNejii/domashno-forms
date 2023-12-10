@@ -1,0 +1,32 @@
+body{
+    background-color: lightgray;
+}
+.main{
+    background-color: whitesmoke;
+    border: 1px solid rgb(105, 105, 105);
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-family: 'Gill Sans', sans-serif;
+    height: 50vh;
+    width: 40vw;
+    align-items: center;
+    margin: 200px auto;
+    line-height: 1.8;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.submit{
+    text-align: center;
+    font-size: 2rem;
+    background-color: darkgray;
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.submit:hover{
+    scale: 1.1;
+ transition: 0.3s;
+    background-color: gray;
+}
